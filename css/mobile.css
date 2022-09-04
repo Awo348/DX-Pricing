@@ -1,0 +1,37 @@
+@media screen and (max-width: 851px) {
+    .container .price-content {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .container .pricing {
+        width: 90%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .container .pricing .item {
+        width: 100%;
+    }
+
+    
+.container .pricing .one {
+    border-right: 0px;
+    padding: 20px;
+}
+
+.container .pricing .two {
+    border-right: 0px;
+    padding: 20px;
+}
+
+.container .pricing .three {
+    border-right: 0px;
+    padding: 20px;
+}
+
+.container .pricing .four {
+    /* border-right: 1px solid black ; */
+    padding: 20px;
+}
+}

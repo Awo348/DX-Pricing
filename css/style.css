@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Reusabel starts here */
+button {
+    cursor: pointer;
+}
+/* Reusable ends here */
+
+body {
+    margin: 0;
+    padding: 30px 0px 50px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.container .price {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.container .price-content {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.container .button {
+    background: rgb(209, 198, 198);
+    padding: 2px 7px;
+    width: fit-content;
+    border-radius: 8px;
+    margin: 10px auto 20px auto;
+}
+
+.container .button .btn {
+    background: white;
+    letter-spacing: 2px;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+.container .button .btn-1 {
+    background: transparent;
+    letter-spacing: 2px;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+
+.container .pricing {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 50px 0px;
+    margin: 0 auto;
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .pricing .item {
+    width: 24%;
+}
+
+.container .pricing .one {
+    border-right: 1px solid black ;
+    padding: 10px;
+}
+
+.container .pricing .two {
+    border-right: 1px solid black ;
+    padding: 10px;
+}
+
+.container .pricing .three {
+    border-right: 1px solid black ;
+    padding: 10px;
+}
+
+.container .pricing .four {
+    /* border-right: 1px solid black ; */
+    padding: 10px;
+}
+
+
+.container .pricing .item h4 {
+    /* font-size: 20px; */
+    font-weight: 700;
+    padding: 0px 0px 20px 0px ;
+}
+
+.container .pricing .item p {
+    font-size: 14px;
+}
+
+.container .pricing .item h2{
+    padding-top: 20px;
+}
+
+.container .pricing .item h2 span {
+    font-size: 14px;
+}
+
+.container .pricing .item .act {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -1.5px;
+}
+
+.container .pricing .item  button {
+    background: #3D3737;
+    color: white;
+    border: 1px solid #3D3737;
+    padding: 10px 20px;
+    margin: 20px 0px;
+}
+
+.container .pricing .item .text {
+    font-size: 14px;
+    padding: 3px;
+}
+
+.container .pricing .item .text i {
+    padding-right: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
